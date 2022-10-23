@@ -350,6 +350,7 @@ public class Main {
             }
         }
     }
+    //А вот оно надо для получения расширения файла
     private static String getFileExtension(String mystr) {
         int index = mystr.indexOf('.');
         return index == -1? null : mystr.substring(index);
