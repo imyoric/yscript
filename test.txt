@@ -1,0 +1,13 @@
+<yscript>
+<|scriptVer|4|>
+cmd|setPref|'Префикс|'CLR_BLUE
+cmd|printByPref|'А это отправить через префикс текст.
+cmd|printByPref|'setPref Устанавливает префикс вывода комманд. Второй агрумент устанавливает цвет.
+if|'1|==|'1
+cmd|printByPref|'Тут тест операторов сравнения, ' - Эта кавычка в начале указывает что выводится текст а не переменная.
+END
+var|set|1|'А это собственно установка переменных.
+var|set|abc|1
+cmd|printByPref|abc
+cmd|printByPref|'allowCommand разрешает пользователю вводить команды! Однако функционал комманд еще не реализован.
+cmd|allowCommand
