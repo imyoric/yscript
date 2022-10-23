@@ -322,7 +322,8 @@ public class Main {
             }
         }
     }
-
+//Эта функция с альфа 0.3 создана для if операторов, но теперь для нее используется основная функция code(), так что codeif() нахер не нужен.
+//И если честно я сам хз как вообще у меня получилось создать работающие операторы, и сообственно как они работают..
     public static void codeif(BufferedReader reader) throws IOException {
         String line = reader.readLine();
         while (line != null) {
