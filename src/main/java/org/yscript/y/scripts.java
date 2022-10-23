@@ -1,5 +1,5 @@
 package org.yscript.y;
-
+//Вообще этот класс вообще не используется и надо бы его удалить...
 import java.io.*;
 
 public class scripts {
