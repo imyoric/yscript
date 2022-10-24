@@ -1,0 +1,9 @@
+<yscript>
+<|scriptVer|5|>
+cmd|setPref|'Example|'CLR_BLUE
+parseOnUrl|'http://ya.ru/|a
+cmd|printByPref|a
+parseOnFile|'Example.yscr|a
+cmd|printByPref|a
+cmd|printByPref|'Это конструкция парсинга текста с URL или файла. Остальное можно найти в предыдущем Example.yscr (Alpha 0.4)
+
