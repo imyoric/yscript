@@ -5,3 +5,5 @@
 <|scriptVer|<Тут версия> по дефолту 4|>
 ```
 А остальное можно найти в `Example.yscr`
+# Репозиторий переехал!
+`https://github.com/imyoric/YScriptMaven` 
